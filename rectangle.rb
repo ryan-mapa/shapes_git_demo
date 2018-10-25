@@ -4,4 +4,8 @@ class Rectangle
     @width = width
     #this is a comment
   end
+
+  def length
+    @length
+  end
 end
