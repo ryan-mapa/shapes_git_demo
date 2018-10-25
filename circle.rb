@@ -4,6 +4,10 @@ class Circle
 
   end
 
+  def diameter(radius)
+    radius * 2
+  end
+  
   def area
     Math::PI * @radius ** 2
   end
